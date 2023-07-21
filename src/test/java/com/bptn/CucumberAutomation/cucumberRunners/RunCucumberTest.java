@@ -8,6 +8,9 @@ import org.junit.platform.suite.api.Suite;
 import static io.cucumber.junit.platform.engine.Constants.GLUE_PROPERTY_NAME;
 
 
+
+@Suite
+@IncludeEngines("cucumber")
 //@SelectClasspathResource("com/bptn/CucumberAutomation/features/example.feature")
 //@SelectClasspathResource("com/bptn/CucumberAutomation/features/calculator.feature")
 //@SelectClasspathResource("com/bptn/CucumberAutomation/features/strongPassword.feature")
@@ -16,8 +19,6 @@ import static io.cucumber.junit.platform.engine.Constants.GLUE_PROPERTY_NAME;
 //@SelectClasspathResource("com/bptn/CucumberAutomation/features/shoppingCart.feature")
 //@SelectClasspathResource("com/bptn/CucumberAutomation/features/loginPage.feature")
 //@SelectClasspathResource("com/bptn/CucumberAutomation/features/seleniumLogin.feature")
-@Suite
-@IncludeEngines("cucumber")
 @SelectClasspathResource("com/bptn/CucumberAutomation/features/apiTesting.feature")
 @ConfigurationParameter(key = GLUE_PROPERTY_NAME, value = "com.bptn.CucumberAutomation")
 public class RunCucumberTest {
