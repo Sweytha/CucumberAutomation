@@ -1,4 +1,4 @@
-/*package com.bptn.CucumberAutomation.stepDefinitions;
+package com.bptn.CucumberAutomation.stepDefinitions;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
@@ -37,4 +37,3 @@ public class LoginPageSteps {
 	}
 
 }
-*/
